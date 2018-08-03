@@ -9,6 +9,7 @@ public class AppMain {
         //Lambdas.showSimpleLambdaCreation();
         //Lambdas.showSimpleLambdaCreationWithType();
         //Lambdas.showSimpleLambdaCreationWithBody();
-        new Lambdas().showSimpleLambdaCreationUseField();
+        //new Lambdas().showSimpleLambdaCreationUseField();
+        Lambdas.showLambdaReturn();
     }
 }

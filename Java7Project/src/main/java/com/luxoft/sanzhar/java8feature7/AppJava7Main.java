@@ -8,6 +8,8 @@ import java.util.Arrays;
  */
 public class AppJava7Main {
     public static void main(String[] args) {
-        Arrays.asList( "a", "b", "d" );
+        //Arrays.asList( "a", "b", "d" );
+        System.out.println("NewInterface.FIELD2=" + NewInterface.FIELD2);
+        
     }
 }

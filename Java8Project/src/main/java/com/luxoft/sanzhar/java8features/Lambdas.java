@@ -42,7 +42,7 @@ public class Lambdas {
      * делает обращение эффективным независимо от того обращается к final полю
      * или нет). Например, эти 2 фрагмента эквиваленты:
      */
-   String separator = ",";
+    String separator = ",";
 
     public void showSimpleLambdaCreationUseField() {
         Arrays.asList("1", "2", "3").forEach(e -> {
@@ -50,5 +50,14 @@ public class Lambdas {
             //separator += "asas";
         }
         );
+    }
+
+    public static void showLambdaReturn() {
+        List<String> list = Arrays.asList("a", "c", "b");
+        list.sort((e1, e2) -> e1.compareTo(e2));
+        System.out.println("list = " + list);
+
+        Arrays.asList("a", "b", "d").sort((e1, e2) -> e1.compareTo(e2));
+
     }
 }
