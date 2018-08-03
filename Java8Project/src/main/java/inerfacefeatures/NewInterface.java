@@ -5,6 +5,7 @@ public interface NewInterface {
         System.out.println("NewInterface static method");
     }
     
+    
     default void methodDefault(){
         System.out.println("Defult method");
     }
